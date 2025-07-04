@@ -16,11 +16,11 @@ const LoggedHeader = () => {
     localStorage.removeItem('jwtToken'); // Clear current domain token (5178)
 
     const portals = [
-      'http://localhost:5173',
-      'http://localhost:5174',
-      'http://localhost:5175',
-      'http://localhost:5176',
-      'http://localhost:5177'
+      'https://computer-jagat-author.vercel.app',
+      'https://computer-jagat-reviewer.vercel.app',
+      'https://computer-jagat-associate-editor.vercel.app',
+      'https://computer-jagat-area-editor.vercel.app',
+      'https://computer-jagat-chief-editor.vercel.app'
     ];
 
     // Inject hidden iframes to trigger logout on each portal
@@ -33,7 +33,7 @@ const LoggedHeader = () => {
 
     // Allow iframes to execute logout code, then redirect
     setTimeout(() => {
-      window.location.href = 'http://localhost:5178/login';
+      window.location.href = 'https://journal-management-system-frontend.vercel.app/login';
     }, 1500);
   }
 
