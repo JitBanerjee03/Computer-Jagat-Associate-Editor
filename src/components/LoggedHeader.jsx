@@ -33,7 +33,7 @@ const LoggedHeader = () => {
 
     // Allow iframes to execute logout code, then redirect
     setTimeout(() => {
-      window.location.href = 'https://journal-management-system-frontend.vercel.app/login';
+      window.location.href = 'https://computer-jagat.vercel.app/login';
     }, 1500);
   }
 
