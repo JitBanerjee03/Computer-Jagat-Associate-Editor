@@ -17,7 +17,7 @@ const Footer = () => {
     <footer className="footer-container" style={{marginTop:'4%'}}>
       <div className="footer-content">
         <div className="footer-section">
-          <h3 className="footer-heading">Company Name</h3>
+          <h3 className="footer-heading">Computer Jagat</h3>
           <p className="footer-description">
             Building innovative solutions for the future. We create digital experiences that matter.
           </p>
@@ -31,14 +31,14 @@ const Footer = () => {
         </div>
 
         <div className="footer-section">
-          <h3 className="footer-heading">Quick Links</h3>
+          {/*<h3 className="footer-heading">Quick Links</h3>
           <ul className="footer-links">
             <li><a href="#" className="footer-link">Home</a></li>
             <li><a href="#" className="footer-link">About Us</a></li>
             <li><a href="#" className="footer-link">Services</a></li>
             <li><a href="#" className="footer-link">Portfolio</a></li>
             <li><a href="#" className="footer-link">Contact</a></li>
-          </ul>
+          </ul>*/}
         </div>
 
         <div className="footer-section">
